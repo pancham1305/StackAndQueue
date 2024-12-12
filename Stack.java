@@ -7,5 +7,21 @@ public class Stack<T> {
         list.add(num);
     }
 
-    
+    T pop() {
+        T ans = list.getLast();
+        list.removeLast();
+        return ans;
+    }
+
+    T peek() {
+        return list.getLast();
+    }
+
+    boolean isEmpty() {
+        return list.isEmpty();
+    }
+
+    int size() {
+        return list.size();
+    }
 }

@@ -5,6 +5,8 @@ public class main {
         st.push(70);
         st.push(30);
         st.push(56);
+        while (!st.isEmpty()) {
+            System.out.println(st.pop());
+        }
     }
-
 }
