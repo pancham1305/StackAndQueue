@@ -8,5 +8,10 @@ public class main {
         while (!st.isEmpty()) {
             System.out.println(st.pop());
         }
+        Queue<Integer> q = new Queue<>();
+        q.enqueue(70);
+        q.enqueue(30);
+        q.enqueue(56);
+        
     }
 }
