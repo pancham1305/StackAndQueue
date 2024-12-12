@@ -12,6 +12,8 @@ public class main {
         q.enqueue(70);
         q.enqueue(30);
         q.enqueue(56);
-        
+        while (!q.isEmpty()) {
+            System.out.println(q.dequeue());
+        }
     }
 }

@@ -6,5 +6,16 @@ public class Queue<T> {
     void enqueue(T num) {
         list.add(num);
     }
+
+    T dequeue() {
+        T ans = list.getFirst();
+        list.removeFirst();
+        return ans;
+    }
+
+    boolean isEmpty(){
+        return list.isEmpty();
+    }
     
-}
+
+}}
